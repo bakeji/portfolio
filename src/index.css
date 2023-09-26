@@ -13,6 +13,9 @@ body{
 #app{
     width: 100%;
 }
+.ham{
+    display: none;
+}
 header{
     width: 100%;
     display: flex;
@@ -355,4 +358,45 @@ small{
         font-size: 30px;
         letter-spacing: normal;
     }
+}
+
+    @media screen and (max-width:525px) {
+        nav{
+            display: none;
+        }
+        .ham{
+            display: block;
+            background: transparent;
+        }
+        #About{
+            flex-direction: column;
+            padding: 2px;
+        }
+        .pic img{
+            margin-top: 30px;
+        }
+        .about-me{
+            width: 85%;
+        }
+        .project, .proj-rev{
+            flex-direction: column;  
+            gap: 10px;  
+        }
+        .proj-pic{
+            background: none;
+            width: 95%;
+            height: fit-content;
+        }
+        .proj-pic img{
+            width: 95%;
+        }
+        .info{
+            width: 100%;
+            margin-top: 12px;
+        }
+        
+        .footer{
+            flex-direction: column;
+        }
+
 }
