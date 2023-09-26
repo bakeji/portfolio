@@ -7,7 +7,6 @@ import Footer from "./components/footer";
 
 export default function App(){
   const [showNav, setShowNav] = useState(false)
-
   const toggleNav=()=>{
     setShowNav(prevNav => !prevNav)
   }
