@@ -318,9 +318,7 @@ small{
         height: 60px;
         gap: 80px;
     }
-    nav{
-        gap: 20px;
-    }
+    
     .logo{
         height: max-content;
     }
@@ -361,8 +359,8 @@ small{
 }
 
     @media screen and (max-width:525px) {
-        nav{
-            display: none;
+        header{
+            position: relative;
         }
         .ham{
             display: block;
@@ -394,7 +392,38 @@ small{
             width: 100%;
             margin-top: 12px;
         }
-        
+        nav{
+            width: 100%;
+            height: max-content;
+            top: none;
+            right: none;
+            left: none;
+            bottom: none;
+            display: flex;
+            margin-left: 40px;
+            display: none;
+            padding: 12px;
+            margin-top: 290px;
+            background-color: #ffffff;
+            flex-direction: column;
+            gap: 30px;
+        transition: 0.5s ease-out;
+        position: absolute;
+        }
+        .nav a{
+            color: #000000;
+        }
+        .hide{
+            display: none;
+        }
+        .show{
+            display: flex;
+        }
+
+        nav a{
+            color: #000000;
+        }
+
         .footer{
             flex-direction: column;
         }
