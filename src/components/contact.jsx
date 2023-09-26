@@ -5,7 +5,7 @@ export default function Contact (){
         <section id="Contact">
             <h3>CONTACT</h3>
             <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-            <form action="mailto:fatimohbakare3@gmail.com" method="GET">
+            <form action="">
                 <div className="name">
                     <label htmlFor="name">Name</label>
                     <input id="name" type="text"  placeholder="Enter your name"/>
