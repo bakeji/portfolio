@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+#app{
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    gap: 240px;
+    align-items: center;
+    height: 40px;
+    padding: 30px;
+    background: rgba(183, 76, 76, 0.42);
+}
+.logo h1, .footer h1{
+    color: #000000;
+font-family: Pattaya;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 11.76px;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+nav a{
+text-decoration: none;
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 5.88px;
+}
+#About{
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+background: rgba(176, 85, 85, 0.63);
+padding: 80px;
+align-items: center;
+justify-content: center;
+gap: 70px;
+display: flex;
+}
+ .pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+    align-items: center;
+}
+.about-me h3{
+    color: #ffffff;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 8.82px;
+}
+.about-me p{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.about-me a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.57);
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5.88px;
+}
+.cv{
+border-radius: 9px;
+background: rgba(255, 255, 255, 0.49);
+width:295px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 60px;
+}
+#Projects{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.proj-text, #Contact h3{
+    color: #000000;
+    font-family: Pattaya;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 11.76px;
+    margin-top: 40px;   
+}
+
+.project, .proj-rev{
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    width: 90%;
+    gap: 40px;
+}
+.proj-rev{
+    flex-direction: row-reverse;
+}
+.proj-pic img{
+    width: 400px;
+height: 378px;
+}
+.proj-pic{
+    width: 480px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+height: 465px;
+background: rgba(183, 76, 76, 0.35);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 90px;
+    align-items: center;
+    width: 50%;
+}
+.info span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.info span h3{
+    color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.info span div {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(192, 105, 77, 0.47);
+    
+}
+.info span a{
+    text-decoration: none;
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.project, .proj-rev p, #Contact p{
+    color: #000000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.41px;
+}
+
+#Contact{
+    margin-top: 80px;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0px 12px 19px 0px rgba(0, 0, 0, 0.15);    
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label, .social p{
+    color: #000000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.name input, .message input, .email input{
+    width: 95%;
+    height: 70px;
+    border-radius: 12px;
+    border: 2px solid rgba(176, 85, 85, 0.63);
+}
+.message input{
+    height: 150px;
+}
+form span{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+form button{
+    width: 120px;
+    height: 60px;
+    border-radius: 9px;
+    background: rgba(176, 85, 85, 0.63);
+    width:295px;
+    border: 1px solid;
+    box-shadow: 0px 12px 19px 0px rgba(0, 0, 0, 0.15); 
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+footer{
+    width: 100%;
+    margin-top: 30px;
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(183, 76, 76, 0.35);;
+}
+.footer{
+    display: flex;
+    gap: 25%;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.social span{
+    display: flex;
+    gap: 14px;
+}
+.footer h1, .social p{
+    color: #ffffff;
+}
+hr{
+    width: 90%;
+    border: 1px solid;
+    color: #000000;
+}
+small{
+    text-align: center;
+    margin-top: 20px;
+}
