@@ -5,7 +5,42 @@ export default function Projects() {
     <section id="Projects">
       <h3 className="proj-text"> PROJECTS</h3>
 
-        <div className="project">
+
+      <div className="project">
+            <div className="proj-pic">
+            <img src="/musica.png" alt="" />
+            </div>
+
+            <div className="info">
+            <span>
+                <h3>MUSICA</h3>
+             <div>
+             <a
+                href="https://musi-ca.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                View
+                </a>
+             </div>
+                <a
+                href="https://github.com/bakeji/Musica"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <img src="/github.png" alt="" />
+                </a>
+            </span>
+
+            <p>
+            Musica is a web application for playing and exploring music using the Deezer API. 
+            This application allows you to browse curated playlists, top charts, new releases, and popular tracks.
+             You can also view details about albums and play individual tracks. The project is built using React.
+            </p>
+            </div>
+            </div>
+
+        <div className="proj-rev">
             <div className="proj-pic">
             <img src="/ip.jpg" alt="" />
             </div>
@@ -40,7 +75,7 @@ export default function Projects() {
             </div>
             </div>
 
-            <div className="proj-rev">
+            <div className="project">
             <div className="proj-pic">
                 <img src="/questions.png" alt="" />
             </div>
@@ -73,7 +108,7 @@ export default function Projects() {
             </div>
             </div>
 
-            <div className="project">
+            <div className="proj-rev">
             <div className="proj-pic">
                 <img src="/rps.jpg" alt="" />
             </div>
@@ -106,7 +141,7 @@ export default function Projects() {
             </div>
         </div>
 
-        <div className="proj-rev">
+        <div className="project">
             <div className="proj-pic">
             <img src="/where.jpg" alt="" />
             </div>
